@@ -1,0 +1,190 @@
+% STRING DECLARATIONS
+%-------------------------------------------
+
+@STRING{PAPERSHOME = "http://constraint-handling-rules.org/papers/"}
+
+@STRING{ head_tag.end = "<meta charset=\"ISO-8859-1\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\n<link rel=\"stylesheet\" href=\"http://chr-website.local/wp-content/themes/keep-it-simple/style.css\">\n<link rel=\"stylesheet\" href=\"http://chr-website.local/wp-content/themes/keep-it-simple/css/layout.css\">\n<link rel=\"stylesheet\" href=\"http://chr-website.local/wp-content/themes/keep-it-simple/css/media-queries.css\">\n<script src=\"http://chr-website.local/wp-content/themes/keep-it-simple/js/modernizr.js\"></script><script src=\"http://chr-website.local/wp-content/themes/keep-it-simple/js/jquery-1.10.2.min.js\"></script><script src=\"http://chr-website.local/wp-content/themes/keep-it-simple/js/jquery.sticky-kit.min.js\"></script>" }
+@STRING{ body_tag.start = "<body class=\"publications\">\n<header id=\"top\">\n<div class=\"row\">\n<div class=\"header-content twelve columns\">\n" }
+@STRING{ page_title_tag.start = "\n<h1 class=\"site-title\" id=\"logo-text\"><a href=\"http://chr-website.local/publications/index.html\" rel=\"publications\">\n" }
+@STRING{ page_title_tag.end = "\n\n</div>\n</div>\n<nav id=\"nav-wrap\"><a class=\"mobile-btn\" href=\"#nav-wrap\" title=\"Show navigation\">Show Menu</a><a class=\"mobile-btn\" href=\"#\" title=\"Hide navigation\">Hide Menu</a>\n<div class=\"row\">\n<div class=\"menu-main-container\"><ul id=\"nav\" class=\"nav\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-home\"><a href=\"http://chr-website.local\">Home</a></li>\n<li class=\"menu-item menu-item-type-custom menu-item-object-custom current-menu-item\"><a href=\"http://chr-website.local/publications\">Publications</a></li>\n<li class=\"menu-item menu-item-type-custom menu-item-object-custom\"><a href=\"http://chrjs.net/playground.html\">Playground</a></li>\n</ul></div><!-- end #nav -->\n</div>\n</nav> <!-- end #nav-wrap -->\n</header><div id=\"content-wrap\"><div class=\"row\"><div id=\"main\" class=\"eight columns\">" }
+
+% @STRING{ default_header_of_body = "\n<br />\n<a href="../index.html"><strong> BACK TO INDEX </strong></a>\n<br /><br />\n\n" }
+@STRING{ default_header_of_body = "" }
+@STRING{ disclaimer.prefix = "</div><!-- end main --><div id=\"sidebar\" class=\"four columns\">\n<div class=\"widget widget_text group\"><h3>Selections</h3>\n<p><ul id=\"selections\"><li><a href=\"http://chr-website.local/publications/index.html#year\">By year</a></li><li><a href=\"http://chr-website.local/publications/index.html#category\">By category</a></li><li><a href=\"http://chr-website.local/publications/index.html#author\">By author</a></li><li><a href=\"http://chr-website.local/publications/index.html#keyword\">By keyword</a></li></ul></p></div>" }
+@STRING{ disclaimer_1 = "This material is presented to ensure timely dissemination of\nscholarly and technical work. Copyright and all rights therein\nare retained by authors or by other copyright holders." }
+@STRING{ disclaimer_2 = "" }
+@STRING{ disclaimer.content.start = "<div class=\"widget widget_text group\"><h3>Disclaimer</h3>\n<p>\n" }
+@STRING{ disclaimer.content.end = "</p></div>\n" }
+@STRING{ date_tag.start = "<div class=\"widget widget_text group\"><h3>Last Update</h3><p>" }
+@STRING{ date_tag.end = "</p></div>" }
+@STRING{ separator = "\n\n" }
+@STRING{ author_tag.start = "<div class=\"widget widget_text group\"><h3>Authors</h3><p>This bibliography was compiled by the following authors:" }
+@STRING{ author_tag.end = "Please send BibT<sub>E</sub>X entries of missing CHR-related publications to <a href=\"mailto:fnogatz@gmail.com\">Falco Nogatz</a>.</p></div>" }
+@STRING{ credits = "<div class=\"widget widget_text group\"><h3>Credits</h3><p>This document was generated from BibT<sub>E</sub>X by\n<a href=\"http://www-sop.inria.fr/epidaure/personnel/malandain/codes/bibtex2html.html\"><em>bibtex2html</em></a>.\n</p></div>" }
+@STRING{ body_tag.end = "</div><!-- end sidebar --></div><!-- end row --></div><!-- end content-wrap --><footer><div class=\"row\"><p class=\"copyright\">&copy; Copyright 2016 Falco Nogatz, Thom Fr&uuml;hwirth. &nbsp; Design by <a title=\"Styleshout\" href=\"http://www.styleshout.com/\">Styleshout</a>.</p></div></footer></body>" }
+@STRING{ page_subtitle_tag.start = "\n<h3>\n" }
+@STRING{ page_subtitle_tag.end = "\n</h3>\n" }
+@STRING{ reduced_year_index.table.start = "\n<div class=\"pagination inline\">\n" }
+@STRING{ reduced_year_index.table.end = "\n</div>\n" }
+@STRING{ reduced_year_index.row.start = "<span class=\"page-row\">\n" }
+@STRING{ reduced_year_index.row.end = "</span>\n" }
+@STRING{ default_initials.table.start = "\n<div class=\"pagination inline\">\n" }
+@STRING{ default_initials.table.end = "\n</div>\n" }
+@STRING{ default_initials.cell.start = "\n<span class=\"entry\">" }
+@STRING{ default_initials.cell.end = "</span>\n" }
+@STRING{ default_index.extra_cell.start = "<td><span class=\"pagination-entry\">" }
+@STRING{ default_index.extra_cell.end = "</span></td>" }
+@string{ category_index.table.start = "\n<div class=\"pagination inline\">\n" }
+@string{ category_index.table.end = "\n</div>\n" }
+@STRING{ category_index.row.start = "<span class=\"page-row\">\n" }
+@STRING{ category_index.row.end = "</span>\n" }
+@STRING{ author_name = "<ul id=\"authors\"><li>Peter Van Weert</li><li>Jon Sneyers</li><li>Tom Schrijvers</li><li>Leslie De Koninck</li><li>Falco Nogatz</li><li>Thom Fr&uuml;hwirth</li></ul>" }
+@string{ item_tag.end = "\n</li>\n" }
+
+@STRING{ index_file_title = "Publications" }
+@STRING{ index_default_file_title = "Publications" }
+@STRING{ index_page_title = "Publications" }
+@STRING{ complete_year_page_title = "Publications of year %d" }
+@STRING{ reduced_year_page_title = "Publications</a></h1><h2>of year %d</h2>" }
+@string{ author_file_title = "Publications of %s %s" }
+@string{ author_page_title = "Publications</a></h1><h2>of %s %s</h2>" }
+@string{ keyword_file_title = "Publications about '%s'" }
+@string{ keyword_page_title = "Publications</a></h1><h2>about '%s'</h2>" }
+
+
+
+% Long versions	-- can be replaced with short versions below for brevity
+%
+@STRING{TPLP = "Theory and Practice of Logic Programming"}
+@STRING{ENTCS = "Electronic Notes in Theoretical Computer Science"}
+@STRING{LNAI = "Lecture Notes in Artificial Intelligence"}
+@STRING{LNCS = "Lecture Notes in Computer Science"}
+@STRING{TOPLAS = "ACM Trans. Program. Lang. Syst."}
+@STRING{TOCL = "ACM Trans. Comput. Logic"}
+@String{j-jucs = "J. Universal Computer Science"}
+@STRING{SV = "Springer-Verlag"}
+
+@STRING{deptcw = "Department of Computer Science"}
+@STRING{KULCW = "K.U.Leuven, Department of Computer Science"}
+
+% Short versions
+%
+%@STRING{TPLP = "TPLP"}
+%@STRING{ENTCS = "ENTCS"}
+%@STRING{LNAI = "LNAI"}
+%@STRING{LNCS = "LNCS"}
+%@STRING{TOPLAS = "ACM TOPLAS"}
+%@STRING{TOCL = "ACM TOCL"}
+%@String{j-jucs = "J. UCS"}
+%@STRING{SV = "Springer"}
+%
+%@STRING{deptcw = "Dept.\ Comp.\ Sc."}
+%@STRING{KULCW = "K.U.Leuven, Dept.\ Comp.\ Sc."}
+
+
+@STRING{Elsevier = "Elsevier"}
+@STRING{ACM = "ACM Press"}
+@STRING{CUP = "Cambridge University Press"}
+@STRING{Kluwer = "Kluwer Academic Publishers"}
+@STRING{MK = "Morgan Kaufmann"}
+@STRING{UIB = "Ulmer Informatik-Berichte"}
+
+
+%conferences: long versions
+@STRING{WLP10l = "WLP '10: Proc.\ 13th Workshop on Logic Programming"}
+@STRING{ICLP13l = "ICLP '13: Proc.\ 29th Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP11l = "ICLP '11: Proc.\ 27th Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP10l = "ICLP '10: Proc.\ 26th Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP09l = "ICLP '09: Proc.\ 25th Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP08l = "ICLP '08: Proc.\ 24rd Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP07l = "ICLP '07: Proc.\ 23rd Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP06l = "ICLP '06: Proc.\ 22nd Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP05l = "ICLP '05: Proc.\ 21st Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP04l = "ICLP '04: Proc.\ 20th Intl.\ Conf.\ Logic Programming"}
+@STRING{ICLP02l = "ICLP '02: Proc.\ 18th Intl.\ Conf.\ Logic Programming"}
+@STRING{CHR13l = "CHR '13: Proc.\ 10th Workshop on Constraint Handling Rules"}
+@STRING{CHR12l = "CHR '12: Proc.\ 9th Workshop on Constraint Handling Rules"}
+@STRING{CHR11l = "CHR '11: Proc.\ 8th Workshop on Constraint Handling Rules"}
+@STRING{CHR10l = "CHR '10: Proc.\ 7th Workshop on Constraint Handling Rules"}
+@STRING{CHR09l = "CHR '09: Proc.\ 6th Workshop on Constraint Handling Rules"}
+@STRING{CHR08l = "CHR '08: Proc.\ 5th Workshop on Constraint Handling Rules"}
+@STRING{CHR07l = "CHR '07: Proc.\ 4th Workshop on Constraint Handling Rules"}
+@STRING{CHR06l = "CHR '06: Proc.\ 3rd Workshop on Constraint Handling Rules"}
+@STRING{CHR05l = "CHR '05: Proc.\ 2nd Workshop on Constraint Handling Rules"}
+@STRING{CHR04l = "CHR '04: 1st Workshop on Constraint Handling Rules: Selected Contributions"}
+@STRING{PPDP11l = "PPDP '11: Proc.\ 13th Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP10l = "PPDP '10: Proc.\ 12th Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP09l = "PPDP '09: Proc.\ 11th Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP08l = "PPDP '08: Proc.\ 10th Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP07l = "PPDP '07: Proc.\ 9th Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP06l = "PPDP '06: Proc.\ 8th Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP05l = "PPDP '05: Proc.\ 7th Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP03l = "PPDP '03: Proc.\ 5th Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP01l = "PPDP '01: Proc.\ 3rd Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{PPDP99l = "PPDP '99: Proc.\ Intl.\ Conf.\ Princ.\ Pract.\ Declarative Programming"}
+@STRING{CP08l = "CP' 08: Proc.\ 14th Intl.\ Conf.\ Princ.\ Pract.\ Constraint Programming"}
+@STRING{CP05l = "CP '05: Proc.\ 11th Intl.\ Conf.\ Princ.\ Pract.\ Constraint Programming"}
+@STRING{CP01l = "CP '01: Proc.\ 7th Intl.\ Conf.\ Princ.\ Pract.\ Constraint Programming"}
+@STRING{CP99l = "CP '99: Proc.\ 5th Intl.\ Conf.\ Princ.\ Pract.\ Constraint Programming"}
+@STRING{CP98l = "CP '98: Proc.\ 4th Intl.\ Conf.\ Princ.\ Pract.\ Constraint Programming"}
+@STRING{LOPSTR13prel = "LOPSTR '13: 23rd Intl.\ Symp.\ Logic-Based Program Synthesis and Transformation, Pre-Proceedings"}
+@STRING{LOPSTR11prel = "LOPSTR '11: 21st Intl.\ Symp.\ Logic-Based Program Synthesis and Transformation, Pre-Proceedings"}
+@STRING{LOPSTR11l = "LOPSTR '11: 21st Intl.\ Symp.\ Logic-Based Program Synthesis and Transformation, Revised Selected Papers"}
+@STRING{LOPSTR09l = "LOPSTR '09: 19th Intl.\ Symp.\ Logic-Based Program Synthesis and Transformation, Revised Selected Papers"}
+@STRING{LOPSTR08l = "LOPSTR '08: 18th Intl.\ Symp.\ Logic-Based Program Synthesis and Transformation, Revised Selected Papers"}
+@STRING{LOPSTR08prel = "LOPSTR '08: 18th Intl.\ Symp.\ Logic-Based Program Synthesis and Transformation, Pre-Proceedings"}
+@STRING{LOPSTR07l = "LOPSTR '07: 17th Intl.\ Symp.\ Logic-Based Program Synthesis and Transformation, Revised Selected Papers"}
+@STRING{LOPSTR06l = "LOPSTR '06: 16th Intl.\ Symp.\ Logic-Based Program Synthesis and Transformation, Revised Selected Papers"}
+@STRING{LOPSTR04l = "LOPSTR '04: Proc.\ 14th Intl.\ Symp.\ Logic-based Program Synthesis and Transformation"}
+@STRING{LOPSTR03l = "LOPSTR '03: Proc.\ 14th Intl.\ Symp.\ Logic-based Program Synthesis and Transformation"}
+@STRING{WLPE03l = "WLPE '03: Proc.\ 13th Workshop on Logic Programming Environments"}
+@STRING{WLPE01l = "WLPE '01: Proc.\ 11th Workshop on Logic Programming Environments"}
+
+%conferences: abbreviated
+@STRING{WLP10 = "WLP '10"}
+@STRING{ICLP11 = "ICLP '13"}
+@STRING{ICLP11 = "ICLP '11"}
+@STRING{ICLP10 = "ICLP '10"}
+@STRING{ICLP09 = "ICLP '09"}
+@STRING{ICLP08 = "ICLP '08"}
+@STRING{ICLP07 = "ICLP '07"}
+@STRING{ICLP06 = "ICLP '06"}
+@STRING{ICLP05 = "ICLP '05"}
+@STRING{ICLP04 = "ICLP '04"}
+@STRING{ICLP02 = "ICLP '02"}
+@STRING{CHR13 = "CHR '13"}
+@STRING{CHR12 = "CHR '12"}
+@STRING{CHR11 = "CHR '11"}
+@STRING{CHR10 = "CHR '10"}
+@STRING{CHR09 = "CHR '09"}
+@STRING{CHR08 = "CHR '08"}
+@STRING{CHR07 = "CHR '07"}
+@STRING{CHR06 = "CHR '06"}
+@STRING{CHR05 = "CHR '05"}
+@STRING{CHR04 = "CHR '04, Selected Contributions"}
+@STRING{PPDP11 = "PPDP '11"}
+@STRING{PPDP10 = "PPDP '10"}
+@STRING{PPDP09 = "PPDP '09"}
+@STRING{PPDP08 = "PPDP '08"}
+@STRING{PPDP07 = "PPDP '07"}
+@STRING{PPDP06 = "PPDP '06"}
+@STRING{PPDP05 = "PPDP '05"}
+@STRING{PPDP03 = "PPDP '03"}
+@STRING{PPDP01 = "PPDP '01"}
+@STRING{PPDP99 = "PPDP '99"}
+@STRING{CP05 = "CP '05"}
+@STRING{CP01 = "CP '01"}
+@STRING{CP99 = "CP '99"}
+@STRING{CP98 = "CP '98"}
+@STRING{LOPSTR13 = "LOPSTR '13, Revised Selected Papers"}
+@STRING{LOPSTR13pre = "LOPSTR '13, Pre-proceedings"}
+@STRING{LOPSTR11 = "LOPSTR '11, Revised Selected Papers"}
+@STRING{LOPSTR09 = "LOPSTR '09, Revised Selected Papers"}
+@STRING{LOPSTR08 = "LOPSTR '08, Revised Selected Papers"}
+@STRING{LOPSTR08pre = "LOPSTR '08, Pre-proceedings"}
+@STRING{LOPSTR07 = "LOPSTR '07, Revised Selected Papers"}
+@STRING{LOPSTR06 = "LOPSTR '06, Revised Selected Papers"}
+@STRING{LOPSTR04 = "LOPSTR '04"}
+@STRING{LOPSTR03 = "LOPSTR '03"}
+@STRING{WLPE03 = "WLPE '03"}
+@STRING{WLPE01 = "WLPE '01"}
